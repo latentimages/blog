@@ -1,4 +1,5 @@
 :root {
+  --khaki: #face6a;
   --steel-blue: #3b99d9;
   --steel-blue-2: #2e80b6;
   --dark-khaki: #a8d069;
@@ -7,7 +8,6 @@
   --light-sea-green-2: #20ac99;
   --sandy-brown: #f8c740;
   --goldenrod: #e2a62b;
-  --khaki: #face6a;
   --sandy-brown-2: #e4b962;
   --salmon: #fd7072;
   --indian-red: #cf404d;
@@ -321,12 +321,12 @@ figcaption {
 .post-wrapper {
   background-color: #fff;
   border-radius: 5px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   box-shadow: 0 0 0 1px #0000000f;
 }
 
 .blog-image {
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-image: url('../images/indy.jpg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -342,7 +342,9 @@ figcaption {
 }
 
 .post-content {
+  text-align: left;
   padding: 20px;
+  display: block;
 }
 
 .post-summary {
@@ -436,6 +438,10 @@ figcaption {
   color: #333;
 }
 
+.post-summary-wrapper {
+  margin-left: 10px;
+}
+
 .content-wrapper {
   background-color: #1d2833;
   padding-top: 30px;
@@ -445,6 +451,7 @@ figcaption {
 .blog-title {
   margin-top: 0;
   margin-bottom: 0;
+  margin-left: 10px;
   font-size: 22px;
   line-height: 26px;
 }
@@ -502,7 +509,7 @@ figcaption {
 }
 
 .blog-page-image {
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-image: url('../images/indy.jpg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -519,6 +526,157 @@ figcaption {
 .details-wrapper {
   margin-top: 8px;
   margin-bottom: 8px;
+  margin-left: 10px;
+}
+
+.body-copy-copy img {
+  border-radius: 3px;
+}
+
+.body-copy-copy li {
+  margin-bottom: 3px;
+}
+
+.body-copy-copy blockquote {
+  line-height: 145%;
+}
+
+.body-copy-copy figure {
+  margin-bottom: 20px;
+}
+
+.script {
+  font-family: Inconsolata, monospace;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.blog-text {
+  text-align: left;
+  font-family: PT Serif, serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.script-text {
+  font-family: Inconsolata, monospace;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.heading, .heading-2 {
+  margin-bottom: 40px;
+}
+
+.pull-quote {
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-family: PT Serif, serif;
+  font-size: 22px;
+  font-style: italic;
+}
+
+.paragraph {
+  margin-bottom: 40px;
+}
+
+.image {
+  width: 80%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.div-block {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.image-caption, .paragraph-2, .image-captions {
+  font-style: italic;
+}
+
+.figure {
+  margin-bottom: 20px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.brandingtag {
+  background-color: var(--khaki);
+  object-fit: fill;
+  border-radius: 7px;
+  flex-flow: row;
+  justify-content: flex-start;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 700;
+  display: block;
+  position: static;
+  overflow: visible;
+}
+
+.div-block-2 {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.image-2 {
+  -webkit-text-fill-color: inherit;
+  object-fit: cover;
+  background-clip: border-box;
+  height: 180px;
+  margin-right: 0;
+  overflow: clip;
+}
+
+.link-block {
+  margin-right: 0;
+}
+
+.column {
+  flex-flow: column;
+  padding-right: 0;
+  display: block;
+}
+
+.column-2 {
+  flex-flow: column;
+  padding-left: 0;
+  display: flex;
+}
+
+.columns {
+  flex-flow: row;
+  display: flex;
+}
+
+.link {
+  color: #000;
+  text-decoration: none;
+}
+
+.navigation-bar-2 {
+  background-color: #000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0 1px #0000000f;
+}
+
+.navigation-link-2 {
+  color: #aaa;
+  margin-left: 25px;
+  padding: 15px 0;
+  font-size: 14px;
+}
+
+.navigation-link-2:hover {
+  color: #fff;
+}
+
+.navigation-link-2.w--current {
+  color: #333;
 }
 
 @media screen and (max-width: 991px) {
@@ -570,6 +728,15 @@ figcaption {
 
   .blog-page-image {
     height: 240px;
+  }
+
+  .navigation-bar-2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .navigation-link-2 {
+    text-align: center;
   }
 }
 
@@ -630,6 +797,12 @@ figcaption {
   .sidebar-on-mobile {
     padding-top: 0;
     display: block;
+  }
+
+  .navigation-bar-2 {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
