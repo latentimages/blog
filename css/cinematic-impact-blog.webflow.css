@@ -828,6 +828,12 @@ figcaption {
   .blog-page-image {
     height: 210px;
   }
+
+  .image-3 {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+  }
 }
 
 
