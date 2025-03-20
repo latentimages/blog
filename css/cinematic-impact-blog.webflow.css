@@ -1,13 +1,13 @@
 :root {
-  --khaki: #face6a;
+  --light-sea-green: #25ccbf;
   --steel-blue: #3b99d9;
   --steel-blue-2: #2e80b6;
   --dark-khaki: #a8d069;
   --medium-sea-green: #30ad64;
-  --light-sea-green: #25ccbf;
   --light-sea-green-2: #20ac99;
   --sandy-brown: #f8c740;
   --goldenrod: #e2a62b;
+  --khaki: #face6a;
   --sandy-brown-2: #e4b962;
   --salmon: #fd7072;
   --indian-red: #cf404d;
@@ -319,6 +319,7 @@ figcaption {
 }
 
 .post-wrapper {
+  opacity: 1;
   background-color: #fff;
   border-radius: 5px;
   margin-bottom: 20px;
@@ -342,6 +343,7 @@ figcaption {
 }
 
 .post-content {
+  opacity: 1;
   text-align: left;
   padding: 20px;
   display: block;
@@ -508,14 +510,20 @@ figcaption {
   padding-left: 20px;
 }
 
-.blog-page-image {
-  background-image: url('../images/indy.jpg');
-  background-position: 50%;
-  background-repeat: no-repeat;
+.kidman-blog {
+  -webkit-text-fill-color: inherit;
+  background-image: url('../images/amc.jpg');
+  background-position: 50% 0;
   background-size: cover;
+  background-clip: border-box;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: flex-start;
   height: 290px;
+  padding-left: 10px;
+  display: flex;
 }
 
 .sidebar-on-mobile {
@@ -604,7 +612,7 @@ figcaption {
 }
 
 .brandingtag {
-  background-color: var(--khaki);
+  background-color: var(--light-sea-green);
   object-fit: fill;
   border-radius: 7px;
   flex-flow: row;
@@ -679,6 +687,24 @@ figcaption {
   color: #333;
 }
 
+.rich-text-block {
+  font-weight: 700;
+}
+
+.indy-blog {
+  background-image: url('../images/Jones.jpg');
+  background-position: 50%;
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: 290px;
+  padding-left: 10px;
+  display: flex;
+}
+
 @media screen and (max-width: 991px) {
   .navigation-link {
     text-align: center;
@@ -726,7 +752,7 @@ figcaption {
     padding-left: 10px;
   }
 
-  .blog-page-image {
+  .kidman-blog {
     height: 240px;
   }
 
@@ -737,6 +763,10 @@ figcaption {
 
   .navigation-link-2 {
     text-align: center;
+  }
+
+  .indy-blog {
+    height: 240px;
   }
 }
 
@@ -790,7 +820,7 @@ figcaption {
     padding: 34px;
   }
 
-  .blog-page-image {
+  .kidman-blog {
     height: 220px;
   }
 
@@ -803,6 +833,10 @@ figcaption {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .indy-blog {
+    height: 220px;
   }
 }
 
@@ -825,7 +859,7 @@ figcaption {
     padding: 20px;
   }
 
-  .blog-page-image {
+  .kidman-blog {
     height: 210px;
   }
 
@@ -833,6 +867,10 @@ figcaption {
     width: 40px;
     height: 40px;
     margin-top: 5px;
+  }
+
+  .indy-blog {
+    height: 210px;
   }
 }
 
