@@ -1,9 +1,9 @@
 :root {
-  --light-sea-green: #25ccbf;
   --steel-blue: #3b99d9;
   --steel-blue-2: #2e80b6;
   --dark-khaki: #a8d069;
   --medium-sea-green: #30ad64;
+  --light-sea-green: #25ccbf;
   --light-sea-green-2: #20ac99;
   --sandy-brown: #f8c740;
   --goldenrod: #e2a62b;
@@ -612,7 +612,7 @@ figcaption {
 }
 
 .brandingtag {
-  background-color: var(--light-sea-green);
+  background-color: var(--steel-blue);
   object-fit: fill;
   border-radius: 7px;
   flex-flow: row;
@@ -705,6 +705,20 @@ figcaption {
   display: flex;
 }
 
+.visium-1 {
+  background-image: url('../images/Lunch_atop_a_Skyscraper_-_Charles_Clyde_Ebbets-1.jpg');
+  background-position: 50%;
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: 290px;
+  padding-left: 10px;
+  display: flex;
+}
+
 @media screen and (max-width: 991px) {
   .navigation-link {
     text-align: center;
@@ -765,7 +779,7 @@ figcaption {
     text-align: center;
   }
 
-  .indy-blog {
+  .indy-blog, .visium-1 {
     height: 240px;
   }
 }
@@ -835,7 +849,7 @@ figcaption {
     padding-right: 10px;
   }
 
-  .indy-blog {
+  .indy-blog, .visium-1 {
     height: 220px;
   }
 }
@@ -869,7 +883,7 @@ figcaption {
     margin-top: 5px;
   }
 
-  .indy-blog {
+  .indy-blog, .visium-1 {
     height: 210px;
   }
 }
