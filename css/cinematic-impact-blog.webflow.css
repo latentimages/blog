@@ -719,6 +719,20 @@ figcaption {
   display: flex;
 }
 
+.brandstory {
+  background-image: url('../images/interstellar-thm_1.png');
+  background-position: 50%;
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: 290px;
+  padding-left: 10px;
+  display: flex;
+}
+
 @media screen and (max-width: 991px) {
   .navigation-link {
     text-align: center;
@@ -779,7 +793,7 @@ figcaption {
     text-align: center;
   }
 
-  .indy-blog, .visium-1 {
+  .indy-blog, .visium-1, .brandstory {
     height: 240px;
   }
 }
@@ -849,7 +863,7 @@ figcaption {
     padding-right: 10px;
   }
 
-  .indy-blog, .visium-1 {
+  .indy-blog, .visium-1, .brandstory {
     height: 220px;
   }
 }
@@ -883,7 +897,7 @@ figcaption {
     margin-top: 5px;
   }
 
-  .indy-blog, .visium-1 {
+  .indy-blog, .visium-1, .brandstory {
     height: 210px;
   }
 }
