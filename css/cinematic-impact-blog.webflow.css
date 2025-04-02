@@ -748,7 +748,7 @@ figcaption {
   color: #333;
 }
 
-.visium-2 {
+.visium-head-2 {
   background-image: url('../images/2001space039.jpg');
   background-position: 50%;
   background-size: cover;
@@ -830,7 +830,7 @@ figcaption {
     text-align: center;
   }
 
-  .visium-2 {
+  .visium-head-2 {
     height: 240px;
   }
 }
@@ -900,7 +900,7 @@ figcaption {
     padding-right: 10px;
   }
 
-  .indy-blog, .visium-1, .brandstory, .visium-2 {
+  .indy-blog, .visium-1, .brandstory, .visium-head-2 {
     height: 220px;
   }
 }
@@ -934,7 +934,7 @@ figcaption {
     margin-top: 5px;
   }
 
-  .indy-blog, .visium-1, .brandstory, .visium-2 {
+  .indy-blog, .visium-1, .brandstory, .visium-head-2 {
     height: 210px;
   }
 }
