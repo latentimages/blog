@@ -733,6 +733,21 @@ figcaption {
   display: flex;
 }
 
+.navigation-link-2-copy {
+  color: #aaa;
+  margin-left: 25px;
+  padding: 15px 0;
+  font-size: 14px;
+}
+
+.navigation-link-2-copy:hover {
+  color: #fff;
+}
+
+.navigation-link-2-copy.w--current {
+  color: #333;
+}
+
 @media screen and (max-width: 991px) {
   .navigation-link {
     text-align: center;
@@ -795,6 +810,10 @@ figcaption {
 
   .indy-blog, .visium-1, .brandstory {
     height: 240px;
+  }
+
+  .navigation-link-2-copy {
+    text-align: center;
   }
 }
 
