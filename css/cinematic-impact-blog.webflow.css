@@ -748,6 +748,20 @@ figcaption {
   color: #333;
 }
 
+.visium-2 {
+  background-image: url('../images/2001space039.jpg');
+  background-position: 50%;
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: 290px;
+  padding-left: 10px;
+  display: flex;
+}
+
 @media screen and (max-width: 991px) {
   .navigation-link {
     text-align: center;
@@ -814,6 +828,10 @@ figcaption {
 
   .navigation-link-2-copy {
     text-align: center;
+  }
+
+  .visium-2 {
+    height: 240px;
   }
 }
 
@@ -882,7 +900,7 @@ figcaption {
     padding-right: 10px;
   }
 
-  .indy-blog, .visium-1, .brandstory {
+  .indy-blog, .visium-1, .brandstory, .visium-2 {
     height: 220px;
   }
 }
@@ -916,7 +934,7 @@ figcaption {
     margin-top: 5px;
   }
 
-  .indy-blog, .visium-1, .brandstory {
+  .indy-blog, .visium-1, .brandstory, .visium-2 {
     height: 210px;
   }
 }
