@@ -762,6 +762,22 @@ figcaption {
   display: flex;
 }
 
+.framework-press-blog {
+  -webkit-text-fill-color: inherit;
+  background-image: url('../images/pressreleaseblog.jpg');
+  background-position: 50% 0;
+  background-size: cover;
+  background-clip: border-box;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: 290px;
+  padding-left: 10px;
+  display: flex;
+}
+
 @media screen and (max-width: 991px) {
   .navigation-link {
     text-align: center;
@@ -793,6 +809,10 @@ figcaption {
     padding: 20px;
   }
 
+  .blog-title {
+    font-size: 18px;
+  }
+
   .white-wrapper {
     padding: 14px;
   }
@@ -813,6 +833,10 @@ figcaption {
     height: 240px;
   }
 
+  .columns {
+    flex-flow: row;
+  }
+
   .navigation-bar-2 {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -831,6 +855,11 @@ figcaption {
   }
 
   .visium-head-2 {
+    height: 240px;
+  }
+
+  .framework-press-blog {
+    background-position: 100% 0;
     height: 240px;
   }
 }
@@ -903,6 +932,11 @@ figcaption {
   .indy-blog, .visium-1, .brandstory, .visium-head-2 {
     height: 220px;
   }
+
+  .framework-press-blog {
+    background-position: 100% 0;
+    height: 220px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -935,6 +969,11 @@ figcaption {
   }
 
   .indy-blog, .visium-1, .brandstory, .visium-head-2 {
+    height: 210px;
+  }
+
+  .framework-press-blog {
+    background-position: 100% 0;
     height: 210px;
   }
 }
