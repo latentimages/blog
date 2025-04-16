@@ -792,6 +792,30 @@ figcaption {
   display: flex;
 }
 
+.rich-text-block-2 {
+  font-family: Lato, sans-serif;
+}
+
+.list-item, .list-item-2, .list-item-3, .list-item-4, .list-item-5, .list-item-6, .list-item-7, .list-item-8, .list-item-9, .list-item-10, .list-item-11, .list-item-12, .list-item-13 {
+  font-family: PT Serif, serif;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.visium-head-3 {
+  background-image: url('../images/15.jpg');
+  background-position: 50%;
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: 290px;
+  padding-left: 10px;
+  display: flex;
+}
+
 @media screen and (max-width: 991px) {
   .navigation-link {
     text-align: center;
@@ -877,7 +901,7 @@ figcaption {
     height: 240px;
   }
 
-  .visionmovies {
+  .visionmovies, .visium-head-3 {
     height: 240px;
   }
 }
@@ -956,7 +980,7 @@ figcaption {
     height: 220px;
   }
 
-  .visionmovies {
+  .visionmovies, .visium-head-3 {
     height: 220px;
   }
 }
@@ -999,7 +1023,7 @@ figcaption {
     height: 210px;
   }
 
-  .visionmovies {
+  .visionmovies, .visium-head-3 {
     height: 210px;
   }
 }
