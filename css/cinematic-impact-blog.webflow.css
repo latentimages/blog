@@ -816,6 +816,20 @@ figcaption {
   display: flex;
 }
 
+.cinematic-journaliam {
+  background-image: url('../images/fire.jpg');
+  background-position: 50%;
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: 290px;
+  padding-left: 10px;
+  display: flex;
+}
+
 @media screen and (max-width: 991px) {
   .navigation-link {
     text-align: center;
@@ -901,7 +915,7 @@ figcaption {
     height: 240px;
   }
 
-  .visionmovies, .visium-head-3 {
+  .visionmovies, .visium-head-3, .cinematic-journaliam {
     height: 240px;
   }
 }
@@ -980,7 +994,7 @@ figcaption {
     height: 220px;
   }
 
-  .visionmovies, .visium-head-3 {
+  .visionmovies, .visium-head-3, .cinematic-journaliam {
     height: 220px;
   }
 }
@@ -1023,7 +1037,7 @@ figcaption {
     height: 210px;
   }
 
-  .visionmovies, .visium-head-3 {
+  .visionmovies, .visium-head-3, .cinematic-journaliam {
     height: 210px;
   }
 }
