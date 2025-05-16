@@ -858,6 +858,20 @@ figcaption {
   display: flex;
 }
 
+.visium-head-image-5 {
+  background-image: url('../images/vlcsnap-2025-05-16-09h06m30s451.png');
+  background-position: 50%;
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: 290px;
+  padding-left: 10px;
+  display: flex;
+}
+
 @media screen and (max-width: 991px) {
   .navigation-link {
     text-align: center;
@@ -943,7 +957,7 @@ figcaption {
     height: 240px;
   }
 
-  .visionmovies, .visium-head-3, .cinematic-journaliam, .visium-head-4, .visium-head-image-4, .cinematic-pitching-1 {
+  .visionmovies, .visium-head-3, .cinematic-journaliam, .visium-head-4, .visium-head-image-4, .cinematic-pitching-1, .visium-head-image-5 {
     height: 240px;
   }
 }
@@ -1022,7 +1036,7 @@ figcaption {
     height: 220px;
   }
 
-  .visionmovies, .visium-head-3, .cinematic-journaliam, .visium-head-4, .visium-head-image-4, .cinematic-pitching-1 {
+  .visionmovies, .visium-head-3, .cinematic-journaliam, .visium-head-4, .visium-head-image-4, .cinematic-pitching-1, .visium-head-image-5 {
     height: 220px;
   }
 }
@@ -1065,7 +1079,7 @@ figcaption {
     height: 210px;
   }
 
-  .visionmovies, .visium-head-3, .cinematic-journaliam, .visium-head-4, .visium-head-image-4, .cinematic-pitching-1 {
+  .visionmovies, .visium-head-3, .cinematic-journaliam, .visium-head-4, .visium-head-image-4, .cinematic-pitching-1, .visium-head-image-5 {
     height: 210px;
   }
 }
