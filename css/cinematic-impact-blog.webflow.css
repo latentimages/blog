@@ -892,6 +892,26 @@ figcaption {
   display: flex;
 }
 
+.list-item-23, .list-item-24, .list-item-25, .list-item-26, .list-item-27, .list-item-28 {
+  font-family: PT Serif, serif;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.visium-head-image-6 {
+  background-image: url('../images/true-grit-075-3916.jpg');
+  background-position: 50%;
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: 290px;
+  padding-left: 10px;
+  display: flex;
+}
+
 @media screen and (max-width: 991px) {
   .navigation-link {
     text-align: center;
@@ -977,7 +997,7 @@ figcaption {
     height: 240px;
   }
 
-  .visionmovies, .visium-head-3, .cinematic-journaliam, .visium-head-4, .visium-head-image-4, .cinematic-pitching-1, .visium-head-image-5, .cinematic-pitching-2 {
+  .visionmovies, .visium-head-3, .cinematic-journaliam, .visium-head-4, .visium-head-image-4, .cinematic-pitching-1, .visium-head-image-5, .cinematic-pitching-2, .visium-head-image-6 {
     height: 240px;
   }
 }
@@ -1056,7 +1076,7 @@ figcaption {
     height: 220px;
   }
 
-  .visionmovies, .visium-head-3, .cinematic-journaliam, .visium-head-4, .visium-head-image-4, .cinematic-pitching-1, .visium-head-image-5, .cinematic-pitching-2 {
+  .visionmovies, .visium-head-3, .cinematic-journaliam, .visium-head-4, .visium-head-image-4, .cinematic-pitching-1, .visium-head-image-5, .cinematic-pitching-2, .visium-head-image-6 {
     height: 220px;
   }
 }
@@ -1099,7 +1119,7 @@ figcaption {
     height: 210px;
   }
 
-  .visionmovies, .visium-head-3, .cinematic-journaliam, .visium-head-4, .visium-head-image-4, .cinematic-pitching-1, .visium-head-image-5, .cinematic-pitching-2 {
+  .visionmovies, .visium-head-3, .cinematic-journaliam, .visium-head-4, .visium-head-image-4, .cinematic-pitching-1, .visium-head-image-5, .cinematic-pitching-2, .visium-head-image-6 {
     height: 210px;
   }
 }
