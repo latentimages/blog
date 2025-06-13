@@ -898,9 +898,9 @@ figcaption {
   line-height: 160%;
 }
 
-.visium-head-image-6 {
-  background-image: url('../images/true-grit-075-3916.jpg');
-  background-position: 50%;
+.visium-lens-image-1 {
+  background-image: url('../images/disc-thrower2.png');
+  background-position: 50% 0;
   background-size: cover;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -920,6 +920,26 @@ figcaption {
 ._44m-movie {
   background-image: url('../images/couple-cinema.jpeg');
   background-position: 50%;
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: 290px;
+  padding-left: 10px;
+  display: flex;
+}
+
+.list-item-29, .list-item-30, .list-item-31 {
+  font-family: PT Serif, serif;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.visium-placing-camera {
+  background-image: url('../images/true-grit-075-3916.jpg');
+  background-position: 50% 0;
   background-size: cover;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -1016,7 +1036,7 @@ figcaption {
     height: 240px;
   }
 
-  .visionmovies, .visium-head-3, .cinematic-journaliam, .visium-head-4, .visium-head-image-4, .cinematic-pitching-1, .visium-head-image-5, .cinematic-pitching-2, .visium-head-image-6, ._44m-movie {
+  .visionmovies, .visium-head-3, .cinematic-journaliam, .visium-head-4, .visium-head-image-4, .cinematic-pitching-1, .visium-head-image-5, .cinematic-pitching-2, .visium-lens-image-1, ._44m-movie, .visium-placing-camera {
     height: 240px;
   }
 }
@@ -1095,7 +1115,7 @@ figcaption {
     height: 220px;
   }
 
-  .visionmovies, .visium-head-3, .cinematic-journaliam, .visium-head-4, .visium-head-image-4, .cinematic-pitching-1, .visium-head-image-5, .cinematic-pitching-2, .visium-head-image-6, ._44m-movie {
+  .visionmovies, .visium-head-3, .cinematic-journaliam, .visium-head-4, .visium-head-image-4, .cinematic-pitching-1, .visium-head-image-5, .cinematic-pitching-2, .visium-lens-image-1, ._44m-movie, .visium-placing-camera {
     height: 220px;
   }
 }
@@ -1138,7 +1158,7 @@ figcaption {
     height: 210px;
   }
 
-  .visionmovies, .visium-head-3, .cinematic-journaliam, .visium-head-4, .visium-head-image-4, .cinematic-pitching-1, .visium-head-image-5, .cinematic-pitching-2, .visium-head-image-6, ._44m-movie {
+  .visionmovies, .visium-head-3, .cinematic-journaliam, .visium-head-4, .visium-head-image-4, .cinematic-pitching-1, .visium-head-image-5, .cinematic-pitching-2, .visium-lens-image-1, ._44m-movie, .visium-placing-camera {
     height: 210px;
   }
 }
