@@ -951,6 +951,26 @@ figcaption {
   display: flex;
 }
 
+.list-item-32, .list-item-33, .list-item-34, .list-item-35 {
+  font-family: PT Serif, serif;
+}
+
+.prometheus-blog-copy {
+  -webkit-text-fill-color: inherit;
+  background-image: url('../images/img_4389.jpg');
+  background-position: 50%;
+  background-size: cover;
+  background-clip: border-box;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: 290px;
+  padding-left: 10px;
+  display: flex;
+}
+
 @media screen and (max-width: 991px) {
   .navigation-link {
     text-align: center;
@@ -1036,7 +1056,7 @@ figcaption {
     height: 240px;
   }
 
-  .visionmovies, .visium-head-3, .cinematic-journaliam, .visium-head-4, .visium-head-image-4, .cinematic-pitching-1, .visium-head-image-5, .cinematic-pitching-2, .visium-lens-image-1, ._44m-movie, .visium-placing-camera {
+  .visionmovies, .visium-head-3, .cinematic-journaliam, .visium-head-4, .visium-head-image-4, .cinematic-pitching-1, .visium-head-image-5, .cinematic-pitching-2, .visium-lens-image-1, ._44m-movie, .visium-placing-camera, .prometheus-blog-copy {
     height: 240px;
   }
 }
@@ -1115,7 +1135,7 @@ figcaption {
     height: 220px;
   }
 
-  .visionmovies, .visium-head-3, .cinematic-journaliam, .visium-head-4, .visium-head-image-4, .cinematic-pitching-1, .visium-head-image-5, .cinematic-pitching-2, .visium-lens-image-1, ._44m-movie, .visium-placing-camera {
+  .visionmovies, .visium-head-3, .cinematic-journaliam, .visium-head-4, .visium-head-image-4, .cinematic-pitching-1, .visium-head-image-5, .cinematic-pitching-2, .visium-lens-image-1, ._44m-movie, .visium-placing-camera, .prometheus-blog-copy {
     height: 220px;
   }
 }
@@ -1158,7 +1178,7 @@ figcaption {
     height: 210px;
   }
 
-  .visionmovies, .visium-head-3, .cinematic-journaliam, .visium-head-4, .visium-head-image-4, .cinematic-pitching-1, .visium-head-image-5, .cinematic-pitching-2, .visium-lens-image-1, ._44m-movie, .visium-placing-camera {
+  .visionmovies, .visium-head-3, .cinematic-journaliam, .visium-head-4, .visium-head-image-4, .cinematic-pitching-1, .visium-head-image-5, .cinematic-pitching-2, .visium-lens-image-1, ._44m-movie, .visium-placing-camera, .prometheus-blog-copy {
     height: 210px;
   }
 }
