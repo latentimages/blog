@@ -971,6 +971,34 @@ figcaption {
   display: flex;
 }
 
+.vision-selecting-lens {
+  background-image: url('../images/hitchcock.jpg');
+  background-position: 50%;
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: 290px;
+  padding-left: 10px;
+  display: flex;
+}
+
+.visium-selecting-a-lens {
+  background-image: url('../images/vlcsnap-2025-06-27-10h19m15s690.png');
+  background-position: 50% 0;
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: 290px;
+  padding-left: 10px;
+  display: flex;
+}
+
 @media screen and (max-width: 991px) {
   .navigation-link {
     text-align: center;
@@ -1056,7 +1084,7 @@ figcaption {
     height: 240px;
   }
 
-  .visionmovies, .visium-head-3, .cinematic-journaliam, .visium-head-4, .visium-head-image-4, .cinematic-pitching-1, .visium-head-image-5, .cinematic-pitching-2, .visium-lens-image-1, ._44m-movie, .visium-placing-camera, .prometheus-blog-copy {
+  .visionmovies, .visium-head-3, .cinematic-journaliam, .visium-head-4, .visium-head-image-4, .cinematic-pitching-1, .visium-head-image-5, .cinematic-pitching-2, .visium-lens-image-1, ._44m-movie, .visium-placing-camera, .prometheus-blog-copy, .vision-selecting-lens, .visium-selecting-a-lens {
     height: 240px;
   }
 }
@@ -1135,7 +1163,7 @@ figcaption {
     height: 220px;
   }
 
-  .visionmovies, .visium-head-3, .cinematic-journaliam, .visium-head-4, .visium-head-image-4, .cinematic-pitching-1, .visium-head-image-5, .cinematic-pitching-2, .visium-lens-image-1, ._44m-movie, .visium-placing-camera, .prometheus-blog-copy {
+  .visionmovies, .visium-head-3, .cinematic-journaliam, .visium-head-4, .visium-head-image-4, .cinematic-pitching-1, .visium-head-image-5, .cinematic-pitching-2, .visium-lens-image-1, ._44m-movie, .visium-placing-camera, .prometheus-blog-copy, .vision-selecting-lens, .visium-selecting-a-lens {
     height: 220px;
   }
 }
@@ -1178,7 +1206,7 @@ figcaption {
     height: 210px;
   }
 
-  .visionmovies, .visium-head-3, .cinematic-journaliam, .visium-head-4, .visium-head-image-4, .cinematic-pitching-1, .visium-head-image-5, .cinematic-pitching-2, .visium-lens-image-1, ._44m-movie, .visium-placing-camera, .prometheus-blog-copy {
+  .visionmovies, .visium-head-3, .cinematic-journaliam, .visium-head-4, .visium-head-image-4, .cinematic-pitching-1, .visium-head-image-5, .cinematic-pitching-2, .visium-lens-image-1, ._44m-movie, .visium-placing-camera, .prometheus-blog-copy, .vision-selecting-lens, .visium-selecting-a-lens {
     height: 210px;
   }
 }
